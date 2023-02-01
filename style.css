@@ -1,0 +1,29 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+link{
+    display: none;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.text-left{
+    text-align: left!important;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+@media screen (max-width:768px){
+    .nav-item{
+        display:fullscreen;
+    }
+}
